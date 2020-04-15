@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+.card{
+  border: 1px solid black;
+  width: 224px;
+  height: 500px;
+  margin: 30px;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+.card-img-top{
+  width: 224px;
+  height: 340px;
+}
+.card-body{
+  height: 15px;
+}
+.filter-container{
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-container{
+  flex:2;
+  padding-left: 50px;
+}
+.filer-rate{
+  flex:1;
+}
+.movieRating{
+  cursor: pointer;
+}
